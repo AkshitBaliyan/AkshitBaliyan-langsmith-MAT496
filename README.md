@@ -26,3 +26,18 @@ Chain – The default type, combining multiple runs into a workflow.
 
 In this section, I practiced invoking an LLM, retrieving documents in the correct format, and calling tools. Additionally, I created a simple calculator tool (with ChatGPT’s help) for basic arithmetic operations and tested it through LangSmith.
 
+Video 3:
+Different ways to run traces include:
+
+@traceable – The method used earlier; it automatically organizes sub-traces under parent traces.
+
+LangGraph – Handles tracing automatically without manual setup.
+
+trace() – Allows selective control over inputs/outputs.
+
+wrap_openai – Directly integrates with the OpenAI SDK.
+
+RunTree – Offers the most granular level of control; requires setting LANGSMITH_TRACING=0.
+
+These options provide flexibility depending on whether simplicity or fine-grained control is preferred.
+
