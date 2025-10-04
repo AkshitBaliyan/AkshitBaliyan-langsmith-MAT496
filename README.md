@@ -82,4 +82,6 @@ Video 4: Analyzing Experiments
 Reviewed and documented experiment results with observations included in the notebook.
 
 (Optional Part) : 
-Video 5 : 
+
+Video 5: Pairwise Experiments
+This feature enables comparison between two experiments, making it easier to determine which approach is more effective for a given use case.
