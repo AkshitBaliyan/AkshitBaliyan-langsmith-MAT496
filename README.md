@@ -12,3 +12,17 @@ MODULE 1
 
 Video 1:
 Each execution of the code generates a new trace. Traces record every function call, providing a detailed step-by-step breakdown of how the program runs. The LangSmith platform offers an intuitive UI to view these traces and the functions involved. Metadata about each run can also be stored and displayed in the trace—either added manually or during runtime. Both approaches were explored in the exercise.
+
+Video 2:
+There are four primary types of runs in LangSmith:
+
+LLM – Directly invokes the language model.
+
+Retriever – Fetches documents from a database.
+
+Tool – Executes function calls (tools).
+
+Chain – The default type, combining multiple runs into a workflow.
+
+In this section, I practiced invoking an LLM, retrieving documents in the correct format, and calling tools. Additionally, I created a simple calculator tool (with ChatGPT’s help) for basic arithmetic operations and tested it through LangSmith.
+
