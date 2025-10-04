@@ -41,3 +41,9 @@ RunTree – Offers the most granular level of control; requires setting LANGSMIT
 
 These options provide flexibility depending on whether simplicity or fine-grained control is preferred.
 
+Video 4:
+Conversation threads were introduced. By assigning a fixed thread ID, I could maintain a continuous dialogue with the model, enabling it to recall previous responses. I tested this by building my own conversation flow.
+
+=>>>>  With this, Module 1 was successfully completed.
+
+
