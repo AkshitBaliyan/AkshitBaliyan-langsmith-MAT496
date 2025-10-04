@@ -85,3 +85,8 @@ Reviewed and documented experiment results with observations included in the not
 
 Video 5: Pairwise Experiments
 This feature enables comparison between two experiments, making it easier to determine which approach is more effective for a given use case.
+
+Video 6: Summary Evaluators
+Summary evaluators combine results from multiple evaluations. I had already come across something similar earlier when experimenting with evaluators—creating a composite score by assigning weights to individual evaluators.
+
+===>  This completed Module 2.
