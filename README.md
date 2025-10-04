@@ -65,6 +65,18 @@ A hallucination evaluator, and
 
 A composite evaluator that aggregates results from all three.
 
+Video 3: Experiments
+Running a model on a dataset and evaluating its performance is termed an experiment. I experimented with:
+
+Entire datasets,
+
+Dataset splits and filtered subsets,
+
+Different OpenAI models to analyze runtime,
+
+Multiple concurrent runs.
+
+The experiments required adapting code depending on the dataset and carefully checking outputs.
 
 Video 4: Analyzing Experiments
 Reviewed and documented experiment results with observations included in the notebook.
