@@ -1,6 +1,6 @@
 # AkshitBaliyan-langsmith-MAT496
 
-
+# Langsmith Academy Course - Module 1 & 2
 
 I began by downloading the initial notebook from the repository and setting up the LangSmith API key along with an OpenAI key
 Installed all required dependencies including scikit-learn, pandas, BeautifulSoup, and others.
