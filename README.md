@@ -65,3 +65,7 @@ A hallucination evaluator, and
 
 A composite evaluator that aggregates results from all three.
 
+
+Video 4: Analyzing Experiments
+Reviewed and documented experiment results with observations included in the notebook.
+
