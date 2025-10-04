@@ -50,8 +50,7 @@ Conversation threads were introduced. By assigning a fixed thread ID, I could ma
 MODULE 2
 
 
-Video 1:
-Creating a Dataset
+Video 1: Creating a Dataset
 This task was simple—followed the tutorial to create a dataset using my OpenAI key. I generated five AI-based fields, experimented with the schema, and built a flexible dataset structure. I also demonstrated filtering and splitting the dataset in the notebook.
 Datasets act as predefined examples (with inputs and optional outputs) to help LLMs perform better.
 
