@@ -89,3 +89,7 @@ Summary evaluators combine results from multiple evaluations. I had already come
 
 
 # Module 3  (Assignment 2nd starts here) : 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1305ba49-b671-41f1-bd33-d7773251b968" />
+
+Downloaded above resources and pushed in the repository.
