@@ -93,3 +93,11 @@ Summary evaluators combine results from multiple evaluations. I had already come
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1305ba49-b671-41f1-bd33-d7773251b968" />
 
 Downloaded above resources and pushed in the repository.
+
+Video 1 : Done with the first video in Module 3
+
+I got the playground running and successfully tested the provided example. After that, I decided to experiment by using my own dataset and tweaking the system messages to see how the output would change. I've attached a few images to show what I observed.
+
+I spent some time getting familiar with the LangSmith playground, a space designed for testing and refining prompts. It's cool because you can bring in your own data, so I used the dataset I created for the last assignment to see the model's different reactions.
+To push it further, I edited the system message to ask for replies in a different language, and it worked perfectly.
+I learned how to use its core features like referencing my own datasets, swapping models, and iterating to get better results. All in all, it was a relatively simple but very practical introduction to this feature.
