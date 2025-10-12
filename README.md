@@ -101,3 +101,7 @@ I got the playground running and successfully tested the provided example. After
 Learning for me : I spent some time getting familiar with the LangSmith playground, a space designed for testing and refining prompts. It's cool because you can bring in your own data, so I used the dataset I created for the last assignment to see the model's different reactions.
 To push it further, I edited the system message to ask for replies in a different language, and it worked perfectly.
 I learned how to use its core features like referencing my own datasets, swapping models, and iterating to get better results. All in all, it was a relatively simple but very practical introduction to this feature.
+
+
+Video 2 : 
+This time, I created a prompt directly on the LangSmith site. I went a step beyond the lesson by making a more dynamic prompt with extra variables like profession, location, and language. Once I saw that working, I also tried pushing a prompt from my notebook up to the website to test it there. I did notice one small difference from the video: the import code snippet uses client now, not hub. It didn't affect the outcome, though, so I just kept going.
