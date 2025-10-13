@@ -12,7 +12,7 @@ The setup worked smoothly with no errors, so I proceeded to Module 1.
 # MODULE 1
 
 Video 1:
-Each execution of the code generates a new trace. Traces record every function call, providing a detailed step-by-step breakdown of how the program runs. The LangSmith platform offers an intuitive UI to view these traces and the functions involved. Metadata about each run can also be stored and displayed in the trace—either added manually or during runtime. Both approaches were explored in the exercise.
+Each execution of the code generates a new trace. Traces record every function call, providing a detailed step-by-step breakdown of how the program runs. The LangSmith platform offers an intuitive UI to view these traces and the functions involved. Metadata about each run can also be stored and displayed in the trace either added manually or during runtime. Both approaches were explored in the exercise.
 
 
 Video 2:
@@ -103,8 +103,22 @@ To push it further, I edited the system message to ask for replies in a differen
 I learned how to use its core features like referencing my own datasets, swapping models, and iterating to get better results. All in all, it was a relatively simple but very practical introduction to this feature.
 
 
-Video 2 : 
+Video 2 :                                                                                                                                                                        
 This time, I created a prompt directly on the LangSmith site. I went a step beyond the lesson by making a more dynamic prompt with extra variables like profession, location, and language. Once I saw that working, I also tried pushing a prompt from my notebook up to the website to test it there. I did notice one small difference from the video: the import code snippet uses client now, not hub. It didn't affect the outcome, though, so I just kept going.
 
-Video 3 :
+Video 3 :                                                                                                                                                                                                 
 I just finished the video on the prompt engineering lifecycle. I created my own prompt that responds to emotions and tested it with a dataset I'd already made. I had to tweak the prompt's syntax to get it to work with my data's format, but it ran successfully in the end. I've saved the results in the notebook.
+
+Video 4:                                                                                                                                                                                    
+
+<img width="1917" height="925" alt="image" src="https://github.com/user-attachments/assets/677fa6e3-efa0-4e17-93e5-84e3ffdf1ad6" />
+
+
+<img width="1920" height="926" alt="image" src="https://github.com/user-attachments/assets/a8502906-489c-47ee-a278-9fd62c4f94a2" />
+
+
+I spent some time with the prompt canvas and got a feel for its tooling. The 'diff' button is a really useful feature for seeing exactly what's changed between prompt versions. I played around with actions that adjust the reading level and length, and I even used the chatbot itself to get suggestions on how to make my prompt better.
+
+
+I changed the persona of the bot to a cricketer instead of a pirate like shown in the video.                                                                                                                       
+I asked the question "Where did you learn to play the cover drive?" instead of how did you lose your leg.
