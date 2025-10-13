@@ -100,12 +100,25 @@ Learning for me : I spent some time getting familiar with the LangSmith playgrou
 To push it further, I edited the system message to ask for replies in a different language, and it worked perfectly.
 I learned how to use its core features like referencing my own datasets, swapping models, and iterating to get better results. All in all, it was a relatively simple but very practical introduction to this feature.
 
+my file: https://github.com/AkshitBaliyan/AkshitBaliyan-langsmith-MAT496/blob/main/Module3/playground_experiments.ipynb
+
+original file: https://github.com/AkshitBaliyan/AkshitBaliyan-langsmith-MAT496/blob/main/original%20files/playground_experiments.ipynb
+
 
 Video 2 :                                                                                                                                                                        
 I created a prompt directly on the LangSmith site. I went a step beyond the lesson by making a more dynamic prompt with extra variables like profession, location, and language. Once I saw that working, I also tried pushing a prompt from my notebook up to the website to test it there. I did notice one small difference from the video: the import code snippet uses client now, not hub. It didn't affect the outcome, though, so I just kept going.
 
+my file: https://github.com/AkshitBaliyan/AkshitBaliyan-langsmith-MAT496/blob/main/Module3/prompt_hub.ipynb
+
+original file: https://github.com/AkshitBaliyan/AkshitBaliyan-langsmith-MAT496/blob/main/original%20files/prompt_hub.ipynb
+
 Video 3 :                                                                                                                                                                                                 
 I just finished the video on the prompt engineering lifecycle. I created my own prompt that responds to emotions and tested it with a dataset I'd already made. I had to tweak the prompt's syntax to get it to work with my data's format, but it ran successfully in the end. I've saved the results in the notebook.
+
+my file: https://github.com/AkshitBaliyan/AkshitBaliyan-langsmith-MAT496/blob/main/Module3/prompt_engineering_lifecycle.ipynb
+
+original file: https://github.com/AkshitBaliyan/AkshitBaliyan-langsmith-MAT496/blob/main/original%20files/prompt_engineering_lifecycle.ipynb
+
 
 Video 4:                                                                                                                                                                                    
 
@@ -120,3 +133,4 @@ I learned about the prompt canvas and its tooling. The 'diff' button is a really
 
 I changed the persona of the bot to a cricketer instead of a pirate like shown in the video.                                                                                                                       
 I asked the question "Where did you learn to play the cover drive?" instead of how did you lose your leg.
+
