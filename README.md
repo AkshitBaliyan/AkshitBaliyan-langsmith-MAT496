@@ -107,3 +107,4 @@ Video 2 :
 This time, I created a prompt directly on the LangSmith site. I went a step beyond the lesson by making a more dynamic prompt with extra variables like profession, location, and language. Once I saw that working, I also tried pushing a prompt from my notebook up to the website to test it there. I did notice one small difference from the video: the import code snippet uses client now, not hub. It didn't affect the outcome, though, so I just kept going.
 
 Video 3 :
+I just finished the video on the prompt engineering lifecycle. I created my own prompt that responds to emotions and tested it with a dataset I'd already made. I had to tweak the prompt's syntax to get it to work with my data's format, but it ran successfully in the end. I've saved the results in the notebook.
