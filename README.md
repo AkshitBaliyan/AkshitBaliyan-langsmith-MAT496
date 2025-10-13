@@ -18,10 +18,10 @@ Each execution of the code generates a new trace. Traces record every function c
 Video 2:
 There are four primary types of runs in LangSmith:
 
-LLM => Directly invokes the language model.
-Retriever => Fetches documents from a database.
-Tool => Executes function calls (tools).
-Chain => The default type, combining multiple runs into a workflow.
+LLM : Directly invokes the language model.
+Retriever : Fetches documents from a database.
+Tool : Executes function calls (tools).
+Chain : The default type, combining multiple runs into a workflow.
 
 In this section, I practiced invoking an LLM, retrieving documents in the correct format, and calling tools. Additionally, I created a simple calculator tool (with ChatGPT’s help) for basic arithmetic operations and tested it through LangSmith.
 
@@ -29,11 +29,11 @@ In this section, I practiced invoking an LLM, retrieving documents in the correc
 Video 3:
 Different ways to run traces include:
 
-@traceable => The method used earlier; it automatically organizes sub-traces under parent traces.
-LangGraph => Handles tracing automatically without manual setup.
-trace() => Allows selective control over inputs/outputs.
-wrap_openai => Directly integrates with the OpenAI SDK.
-RunTree => Offers the most granular level of control; requires setting LANGSMITH_TRACING=0.
+@traceable : The method used earlier; it automatically organizes sub-traces under parent traces.
+LangGraph : Handles tracing automatically without manual setup.
+trace() : Allows selective control over inputs/outputs.
+wrap_openai : Directly integrates with the OpenAI SDK.
+RunTree : Offers the most granular level of control; requires setting LANGSMITH_TRACING=0.
 
 These options provide flexibility depending on whether simplicity or fine-grained control is preferred.
 
@@ -41,7 +41,6 @@ These options provide flexibility depending on whether simplicity or fine-graine
 Video 4:
 Conversation threads were introduced. By assigning a fixed thread ID, I could maintain a continuous dialogue with the model, enabling it to recall previous responses. I tested this by building my own conversation flow.
 
-===>  With this, Module 1 successfully completed.
 
 
 # MODULE 2
@@ -85,7 +84,6 @@ Video 6: Summary Evaluators
 Summary evaluators combine results from multiple evaluations. I had already come across something similar earlier when experimenting with evaluators—creating a composite score by assigning weights to individual evaluators.
 
 
-===>  This completed Module 2.
 
 
 # Module 3  (Assignment 2nd starts here) : 
@@ -94,7 +92,7 @@ Summary evaluators combine results from multiple evaluations. I had already come
 
 Downloaded above resources and pushed in the repository.
 
-Video 1 : Done with the first video in Module 3
+Video 1 : 
 
 I got the playground running and successfully tested the provided example. After that, I decided to experiment by using my own dataset and tweaking the system messages to see how the output would change. I've attached a few images to show what I observed.
 
@@ -104,7 +102,7 @@ I learned how to use its core features like referencing my own datasets, swappin
 
 
 Video 2 :                                                                                                                                                                        
-This time, I created a prompt directly on the LangSmith site. I went a step beyond the lesson by making a more dynamic prompt with extra variables like profession, location, and language. Once I saw that working, I also tried pushing a prompt from my notebook up to the website to test it there. I did notice one small difference from the video: the import code snippet uses client now, not hub. It didn't affect the outcome, though, so I just kept going.
+I created a prompt directly on the LangSmith site. I went a step beyond the lesson by making a more dynamic prompt with extra variables like profession, location, and language. Once I saw that working, I also tried pushing a prompt from my notebook up to the website to test it there. I did notice one small difference from the video: the import code snippet uses client now, not hub. It didn't affect the outcome, though, so I just kept going.
 
 Video 3 :                                                                                                                                                                                                 
 I just finished the video on the prompt engineering lifecycle. I created my own prompt that responds to emotions and tested it with a dataset I'd already made. I had to tweak the prompt's syntax to get it to work with my data's format, but it ran successfully in the end. I've saved the results in the notebook.
@@ -117,7 +115,7 @@ Video 4:
 <img width="1920" height="926" alt="image" src="https://github.com/user-attachments/assets/a8502906-489c-47ee-a278-9fd62c4f94a2" />
 
 
-I spent some time with the prompt canvas and got a feel for its tooling. The 'diff' button is a really useful feature for seeing exactly what's changed between prompt versions. I played around with actions that adjust the reading level and length, and I even used the chatbot itself to get suggestions on how to make my prompt better.
+I learned about the prompt canvas and its tooling. The 'diff' button is a really useful feature for seeing exactly what's changed between my prompt versions. I learned about the actions that adjust the reading level and length, and I even used the chatbot itself to get suggestions on how to make my prompt better.
 
 
 I changed the persona of the bot to a cricketer instead of a pirate like shown in the video.                                                                                                                       
