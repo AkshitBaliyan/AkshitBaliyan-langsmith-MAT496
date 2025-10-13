@@ -105,3 +105,5 @@ I learned how to use its core features like referencing my own datasets, swappin
 
 Video 2 : 
 This time, I created a prompt directly on the LangSmith site. I went a step beyond the lesson by making a more dynamic prompt with extra variables like profession, location, and language. Once I saw that working, I also tried pushing a prompt from my notebook up to the website to test it there. I did notice one small difference from the video: the import code snippet uses client now, not hub. It didn't affect the outcome, though, so I just kept going.
+
+Video 3 :
